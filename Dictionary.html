@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body style="text-align: center">
+    <h1 style="color: blue">Dictionary</h1>
+    <input style="color: green" type="text" id="txt" value="">
+    <select id="dic">
+        <option value="AV">Anh - Việt</option>
+        <option value="VA">Việt - Anh</option>
+    </select>
+    <button style="background: #333; color: aliceblue" onclick="lookfor()" type="button">Tìm kiếm</button>
+    <p>Gợi ý từ English có thể tìm thấy: world, formation, way,....</p>
+    <p>Gợi ý từ Việt Nam có thể tìm thấy: lịch sử, nghệ thuật, gia đình,....</p>
+    <p id="result" style="color: green"></p>
+    <script src="Dictionary.js"></script>
+</body>
+</html>
